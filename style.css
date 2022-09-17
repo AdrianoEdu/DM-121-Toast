@@ -20,7 +20,7 @@ body > div {
 .toast .icon {
     width: 32px;
     height: 32px;
-    background: url(/Toast/infoButton.svg) no-repeat;
+    background: url(https://adrianoedu.github.io/DM-121-Toast/Toast/infoButton.svg) no-repeat;
 }
 
 .toast section {
@@ -48,5 +48,13 @@ body > div {
 }
 
 .toast.success .icon {
-    background-image: url(/Toast/successButton.svg);
+    background-image: url(https://adrianoedu.github.io/DM-121-Toast/Toast/successButton.svg);
+}
+
+.toast.error {
+    border-color: red;
+}
+
+.toast.error .icon {
+    background-image: url();
 }
